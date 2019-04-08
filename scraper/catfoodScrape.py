@@ -26,7 +26,7 @@ asins = searchHtml.xpath('//span[@data-component-type="s-search-results"]//@data
 
 products = []
 for asin in asins:
-    sleep(randint(1,3))
+    sleep(randint(1, 3))
 
     productUrl = baseUrl + 'dp/' + asin
     productResponse = requests.get(productUrl, headers=headers)
