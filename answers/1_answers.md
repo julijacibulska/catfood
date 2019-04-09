@@ -13,4 +13,5 @@ Images can be saved on such service as Amazon S3 with private status and bucket 
 For data visualization, graphics/diagrams could be used to show the change of test results - when some metrics are out of normal state. Once any of metric becomes higher or lower than normal or continuously rises/falls, notification should be sent.
 
 ## Where will the data will be stored? What are your thoughts on data population mechanisms when prompted by the user?
-Images can be stored on Amazon S3, that is secure file storage. Text data can be populated using optical character recognition from the test result screenshot image.
+
+Images can be stored on Amazon S3, that is secure file storage. Text data can be populated using optical character recognition from the test result screenshot image (e.g. cat1_fecaltest_result.png).

@@ -3,7 +3,6 @@ import { styled } from "../../config/theme";
 export const StyledHeader = styled.header`
     height: 60px;
     background: ${props => props.theme.colors.white};
-    padding-bottom: 10px;
     display: flex;
     align-items: center;
 `;

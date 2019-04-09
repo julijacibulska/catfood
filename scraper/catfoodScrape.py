@@ -51,11 +51,11 @@ for asin in asins:
         'title': ''.join(titleElements).strip(),
         'price': price[0].strip(),
         'image': imageBlob[0].strip(),
-        'retailer': retailer.strip(),
+        'retailer': retailer[0].strip(),
         'description': description.decode("utf-8").strip()
     })
 
-    print(str(len(products)) + ' out of ' + str(len(asins)) + 'products scraped')
+    print(str(len(products)) + ' out of ' + str(len(asins)) + ' products scraped')
 
 with open('../src/catfood.json', 'w') as outfile:
     json.dump(products, outfile)

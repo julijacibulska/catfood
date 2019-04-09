@@ -1,0 +1,20 @@
+{
+    "file_id": "nn",
+    "animal_id": 123,
+    "test_id": 123,
+    "material_characteristics": "suitable",
+    "results": [
+        {
+            "code": "1/19.F",
+            "key": "color",
+            "value": "brown"
+        },
+        {
+            "code": "2/19.F",
+            "key": "consistency",
+            "value": "shaped"
+        }
+        // ...
+    ],
+    "date": "YYYY/MM/DD"
+}
